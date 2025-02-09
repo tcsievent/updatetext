@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your awesome website">
+    <meta name="author" content="Your Name">
+    
+    <title>TCSI EVENT</title>
+    
+    <!-- Link to your custom CSS -->
+    <link rel="stylesheet" href="design.css">
+
+    <!-- Bootstrap CSS (via CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                    <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                    <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                  </svg></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="tel:4047070051">Call us at (404) 707-0051</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <form class="d-flex p-2 m-1" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+              </form>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <div style="text-align: center;">
+          <a href="index.html">
+            <img src="bitmapTCISDOESEVENTS002.png" alt="Example Image" width="150" height="150">
+        </a>
+        </div>
+        <div class="d-flex justify-content-center hstack gap-1 list-group list-group-horizontal-md m-3" id="">
+            <a class="list-group-item list-group-item-action text-center" href="book.html">Book</a>
+            <a class="list-group-item list-group-item-action text-center" href="blog.html">Blog</a>
+            <a class="list-group-item list-group-item-action text-center" href="comforts.html">Comforts</a>
+            <a class="list-group-item list-group-item-action text-center" href="gallery.html">Gallery</a>
+            <a class="list-group-item list-group-item-action text-center" href="pricing.html">Pricing</a>
+            <a class="list-group-item list-group-item-action text-center" href="contact.html">Contact</a>
+        </div>
+        <p class="d-flex gap-1 justify-content-center m-3 p-3">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Show Phone Info</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Show Email Info</button>
+            
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                  <a href="tel:4049253972">Call us at (404) 707-0051</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                  <a href="mailto:TCSIEVENT@gmail.com">Write to us using an email</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            </main>
+
+    <footer class="text-center bg-light py-3 fixed-bottom">
+        <p>&copy; 2025 TCSI EVENT. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies (via CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Link to your custom JavaScript -->
+    <script src="scripto.js"></script>
+</body>
+
+</html>
